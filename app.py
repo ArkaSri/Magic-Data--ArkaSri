@@ -226,7 +226,7 @@ else:
                     st.session_state.usage_count += 1
                     
                 st.success("🎉 Laporan Berhasil Dibuat!")
-                st.download_button(
+                st.download_button
                     label="📥 Unduh Laporan PDF Profesional",
                     data=pdf_bytes,
                     file_name=f"MagicData_Report_{kategori_pilihan.split()[0]}.pdf",
