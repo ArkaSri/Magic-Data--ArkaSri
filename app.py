@@ -227,7 +227,8 @@ else:
                     
                 st.success("🎉 Laporan Berhasil Dibuat!")
                 st.download_button(
-                    label="📥 Unduh Laporan PDF Profesional",
-                    data=pdf_bytes),
-                    file_name=f"MagicData_Report_{kategori_pilihan.split()[0]}.pdf",
-                    mime="application/pdf"
+    label="📥 Unduh Laporan PDF Profesional",
+    data=pdf_bytes, 
+    file_name=f"MagicData_Report_{kategori_pilihan.split()[0]}.pdf",
+    mime="application/pdf"
+                )
