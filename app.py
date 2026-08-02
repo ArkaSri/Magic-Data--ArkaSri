@@ -231,4 +231,4 @@ else:
     data=pdf_bytes, 
     file_name=f"MagicData_Report_{kategori_pilihan.split()[0]}.pdf",
     mime="application/pdf"
-                )
+)
